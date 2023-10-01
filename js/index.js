@@ -39,7 +39,7 @@ var swiper = new Swiper(".promo__swiper", {
   });
 
 
-  var swiper = new Swiper(".reviys__swiper", {
+var swiper = new Swiper(".reviys__swiper", {
     pagination: {
       el: ".reviys .swiper-pagination",
       clickable: true,
@@ -48,4 +48,4 @@ var swiper = new Swiper(".promo__swiper", {
         nextEl: ".reviys .arrow_next",
         prevEl: ".reviys .arrow_prew",
       },
-  });
+});
