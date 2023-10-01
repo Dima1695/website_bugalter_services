@@ -169,6 +169,15 @@ transition: all 0.3s;
     
 }
 
+.clients_title{
+    color: var(--333333, #333);
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 144.555%; /* 69.386px */
+}
+
 .swiper-pagination-bullet  .swiper-pagination_white{
     background: #ffffff;
   
@@ -845,7 +854,7 @@ display: none;
     }
 
     .caption {
-        font-size: 30px;
+        font-size: 24px;
         line-height: 20px;
     }
 
@@ -889,20 +898,18 @@ display: none;
     .orded_desc {
         margin-bottom: 30px;
     }
-
-    .order_items {
-        padding-left: 20%;
-    }
-    .title {
-        padding-left: 28%;
-    }
-
-    .orded_desc {
+    .order_item {
         padding-left: 10%;
     }
 
     .footer {
         padding-top: 24px;
         padding-bottom: 24px;
+    }
+
+    .order_form {
+        width: 81%;
+        margin: 0 auto;
+        padding-top: 14px;
     }
 }
