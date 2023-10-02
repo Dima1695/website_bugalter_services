@@ -1,3 +1,12 @@
+var burgerElement = document.querySelector(".burger");
+if(burgerElement) {
+  burgerElement.addEventListener("click", function() {
+    this.classList.toggle("active");
+    document.querySelector(".header__conteiner").classList.toggle("active");
+    document.body.classList.toggle("lock")
+  })
+}
+
 var swiper = new Swiper(".promo__swiper", {
     pagination: {
       el: ".promo .swiper-pagination",
@@ -23,9 +32,9 @@ var swiper = new Swiper(".promo__swiper", {
       },
       
       breakpoints: {
-        640: {
+        200: {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 15,
         },
         760: {
           slidesPerView: 3,
